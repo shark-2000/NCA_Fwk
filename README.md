@@ -1,4 +1,13 @@
-# TestNG and Selenium framework with java
+# ALM framework for easy initialization
+## How to access this project
+1. Clone the project using :-
+   ```batch
+   git clone https://github.com/shark-2000/AALM_framework.git AALM_Framework 
+   ```
+2. Got to the project directory and into the suite folder
+3. Open testng.xml available in suites folder in eclipse IDE.
+4. Run the xml file as TestNG Suite 
+
 ## Framework file strucuture
 ```mermaid
 flowchart LR;
@@ -30,7 +39,7 @@ src-->test-->Java-->dataProviders-->DataWithExcel.java;
 src-->test-->Resources-->drivers;
 ```
 
-## Driver flow(Multi browser)
+## Driver flow
 ```mermaid 
 flowchart TD;
 

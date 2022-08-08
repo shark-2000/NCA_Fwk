@@ -1,5 +1,4 @@
-# ALM framework for easy initialization
-## How to access this project
+# How to access this project
 1. Clone the project using :-
    ```batch
    git clone https://github.com/shark-2000/NCA_Fwk.git NCA_Fwk 

@@ -4,7 +4,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import pages.Prerequisite;
+import pages.LoginPage;
 import utils.BrowserManager;
 import utils.ConfigurationReader;
 import utils.Screenshot;
@@ -59,7 +59,7 @@ public class CustomAnnotations {
 	}
 
 	public void login() throws IOException {
-		Prerequisite pe = new Prerequisite(driver);
+		LoginPage pe = new LoginPage(driver);
 		pe.login(ConfigurationReader.username(), ConfigurationReader.password());
 
 	}

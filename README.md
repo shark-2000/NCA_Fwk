@@ -12,7 +12,7 @@
 flowchart LR;
 src-->main;
 src-->test;
-src-->main-->java-->pages-->Prerequisite.java;
+src-->main-->java-->pages-->Login.java;
 src-->main-->java-->pages-->DashBoard.java;
 
 

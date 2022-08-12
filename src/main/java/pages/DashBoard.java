@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class DashBoard {
 	public static WebElement element;
-	public static WebDriver driver = Prerequisite.driver;
 
 	public static WebElement userButton(WebDriver driver) {
 		String xPath = "//a[@href='/ALM/Users']";
@@ -23,8 +22,6 @@ public class DashBoard {
 	}
 
 	public static void clickOnUser() {
-		DashBoard.master(driver).click();
-		DashBoard.userButton(driver).click();
 	}
 
 }

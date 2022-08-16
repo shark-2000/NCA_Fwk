@@ -4,6 +4,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+import pages.DashBoard;
 import pages.LoginPage;
 import utils.BrowserManager;
 import utils.ConfigurationReader;
@@ -62,6 +63,11 @@ public class CustomAnnotations {
 		LoginPage pe = new LoginPage(driver);
 		pe.login(ConfigurationReader.username(), ConfigurationReader.password());
 
+	}
+
+	public void search(String books) {
+		DashBoard db = new DashBoard(driver);
+		db.sendAPIData(books);
 	}
 
 }
